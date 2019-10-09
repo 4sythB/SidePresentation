@@ -19,6 +19,7 @@ class SideMenuViewController: UIViewController {
     class func createFromStoryboard() -> SideMenuViewController {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let vc = storyboard.instantiateViewController(identifier: "sideMenu") as! SideMenuViewController
+        vc.modalPresentationStyle = .custom
         
         return vc
     }

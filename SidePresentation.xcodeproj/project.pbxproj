@@ -14,6 +14,9 @@
 		A2121DD2234D9EDD00006087 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2121DD1234D9EDD00006087 /* Assets.xcassets */; };
 		A2121DD5234D9EDD00006087 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2121DD3234D9EDD00006087 /* LaunchScreen.storyboard */; };
 		A29A51D9234DA26100CF4C8D /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29A51D8234DA26100CF4C8D /* SideMenuViewController.swift */; };
+		A29A51DB234DA6F400CF4C8D /* SideMenuPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29A51DA234DA6F400CF4C8D /* SideMenuPresentationController.swift */; };
+		A29A51DD234DAA8300CF4C8D /* SideMenuAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29A51DC234DAA8300CF4C8D /* SideMenuAnimator.swift */; };
+		A29A51DF234E2B1C00CF4C8D /* SideMenuInteractiveTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29A51DE234E2B1C00CF4C8D /* SideMenuInteractiveTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		A2121DD4234D9EDD00006087 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2121DD6234D9EDD00006087 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A29A51D8234DA26100CF4C8D /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		A29A51DA234DA6F400CF4C8D /* SideMenuPresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuPresentationController.swift; sourceTree = "<group>"; };
+		A29A51DC234DAA8300CF4C8D /* SideMenuAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuAnimator.swift; sourceTree = "<group>"; };
+		A29A51DE234E2B1C00CF4C8D /* SideMenuInteractiveTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuInteractiveTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 			children = (
 				A2121DCC234D9EDA00006087 /* ViewController.swift */,
 				A29A51D8234DA26100CF4C8D /* SideMenuViewController.swift */,
+				A29A51DA234DA6F400CF4C8D /* SideMenuPresentationController.swift */,
+				A29A51DC234DAA8300CF4C8D /* SideMenuAnimator.swift */,
+				A29A51DE234E2B1C00CF4C8D /* SideMenuInteractiveTransition.swift */,
 				A2121DCE234D9EDA00006087 /* Main.storyboard */,
 				A2121DD6234D9EDD00006087 /* Info.plist */,
 				A2121DDC234D9F2E00006087 /* Other */,
@@ -151,7 +160,10 @@
 			files = (
 				A29A51D9234DA26100CF4C8D /* SideMenuViewController.swift in Sources */,
 				A2121DCD234D9EDA00006087 /* ViewController.swift in Sources */,
+				A29A51DD234DAA8300CF4C8D /* SideMenuAnimator.swift in Sources */,
 				A2121DC9234D9EDA00006087 /* AppDelegate.swift in Sources */,
+				A29A51DB234DA6F400CF4C8D /* SideMenuPresentationController.swift in Sources */,
+				A29A51DF234E2B1C00CF4C8D /* SideMenuInteractiveTransition.swift in Sources */,
 				A2121DCB234D9EDA00006087 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
