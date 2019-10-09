@@ -15,6 +15,10 @@ class ViewController: UIViewController {
     }
 
     @IBAction func menuButtonTapped(_ sender: Any) {
+        presentMenu()
+    }
+    
+    private func presentMenu() {
         let sideMenu = SideMenuViewController.createFromStoryboard()
         self.present(sideMenu, animated: true, completion: nil)
     }
