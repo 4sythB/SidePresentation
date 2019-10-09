@@ -16,7 +16,6 @@ class SideMenuPresentationController: UIPresentationController {
     var interactor: SideMenuInteractiveTransition?
     private var dimmingView: UIView!
     
-    
     override init(presentedViewController: UIViewController, presenting presentingViewController: UIViewController?) {
         super.init(presentedViewController: presentedViewController, presenting: presentingViewController)
         

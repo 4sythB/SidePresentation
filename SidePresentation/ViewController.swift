@@ -12,6 +12,7 @@ class ViewController: UIViewController {
     
     private var interactor: SideMenuInteractiveTransition!
 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
