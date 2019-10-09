@@ -12,9 +12,10 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func menuButtonTapped(_ sender: Any) {
+        let sideMenu = SideMenuViewController.createFromStoryboard()
+        self.present(sideMenu, animated: true, completion: nil)
+    }
 }
-
